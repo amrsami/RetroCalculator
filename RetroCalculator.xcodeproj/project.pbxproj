@@ -12,16 +12,20 @@
 		D62ADBF61C54990C00D24703 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62ADBF41C54990C00D24703 /* Main.storyboard */; };
 		D62ADBF81C54990C00D24703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62ADBF71C54990C00D24703 /* Assets.xcassets */; };
 		D62ADBFB1C54990C00D24703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62ADBF91C54990C00D24703 /* LaunchScreen.storyboard */; };
+		D62ADC031C54A3CD00D24703 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D62ADC021C54A3CD00D24703 /* Minecraft.ttf */; };
+		D62ADC051C54B2CB00D24703 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = D62ADC041C54B2CB00D24703 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D62ADBED1C54990C00D24703 /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62ADBED1C54990C00D24703 /* Retro Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retro Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62ADBF01C54990C00D24703 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D62ADBF21C54990C00D24703 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D62ADBF51C54990C00D24703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D62ADBF71C54990C00D24703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D62ADBFA1C54990C00D24703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D62ADBFC1C54990C00D24703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D62ADC021C54A3CD00D24703 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		D62ADC041C54B2CB00D24703 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +50,7 @@
 		D62ADBEE1C54990C00D24703 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D62ADBED1C54990C00D24703 /* RetroCalculator.app */,
+				D62ADBED1C54990C00D24703 /* Retro Calc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +58,8 @@
 		D62ADBEF1C54990C00D24703 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				D62ADC021C54A3CD00D24703 /* Minecraft.ttf */,
+				D62ADC041C54B2CB00D24703 /* btn.wav */,
 				D62ADBF01C54990C00D24703 /* AppDelegate.swift */,
 				D62ADBF21C54990C00D24703 /* ViewController.swift */,
 				D62ADBF41C54990C00D24703 /* Main.storyboard */,
@@ -81,7 +87,7 @@
 			);
 			name = RetroCalculator;
 			productName = RetroCalculator;
-			productReference = D62ADBED1C54990C00D24703 /* RetroCalculator.app */;
+			productReference = D62ADBED1C54990C00D24703 /* Retro Calc.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -122,8 +128,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D62ADC051C54B2CB00D24703 /* btn.wav in Resources */,
 				D62ADBFB1C54990C00D24703 /* LaunchScreen.storyboard in Resources */,
 				D62ADBF81C54990C00D24703 /* Assets.xcassets in Resources */,
+				D62ADC031C54A3CD00D24703 /* Minecraft.ttf in Resources */,
 				D62ADBF61C54990C00D24703 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,7 +258,7 @@
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amrsami.RetroCalculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Retro Calc";
 			};
 			name = Debug;
 		};
@@ -261,7 +269,7 @@
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amrsami.RetroCalculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Retro Calc";
 			};
 			name = Release;
 		};
